@@ -12,3 +12,5 @@ if systemctl is-active --quiet nginx; then
 else
     echo "NGINX: Not running"
 fi
+
+echo "Health check completed at: $(date)"
